@@ -10,9 +10,9 @@ pip3 install --user -U west
 mkdir -p ~/code/csse4011
 cd ~/code/csse4011
 # Clone your git repository into the folder:
-git clone https://sources.eait.uq.edu.au/git/csse4011-sXXXXXXX.git sXXXXXXXX
+git clone https://sources.eait.uq.edu.au/git/csse4011-sXXXXXXX.git csse4011-sXXXXXXXX
 # Tell West what the main repo is
-west init -l sXXXXXXXX
+west init -l csse4011-sXXXXXXXX
 # Pull down all the required repositories
 west update
 ```
