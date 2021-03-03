@@ -2,13 +2,13 @@
 
 ## Folder Setup
 
-Setup your local workspace as follows, replacing sXXXXXXXX with your student number
+Setup your local workspace as follows, replacing sXXXXXXXX with your student login (s<first 7 digits of student number>)
 ```
 # Install West
 pip3 install --user -U west
 # Create a folder for this course
-mkdir -p ~/code/csse4011
-cd ~/code/csse4011
+mkdir -p ~/csse4011
+cd ~/csse4011
 # Clone your git repository into the folder:
 git clone https://sources.eait.uq.edu.au/git/csse4011-sXXXXXXX.git csse4011-sXXXXXXXX
 # Tell West what the main repo is
@@ -26,5 +26,5 @@ https://docs.zephyrproject.org/latest/getting_started/index.html
 ## Build an Application
 
 ```
-west build -b thingy52_nrf52832 sXXXXXXXX/apps/p1/blinky
+west build -b thingy52_nrf52832 csse4010-sXXXXXXX/apps/p1/blinky
 ```
