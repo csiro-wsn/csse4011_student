@@ -9,7 +9,7 @@ pip3 install --user -U west
 # Create a folder for this course
 mkdir -p ~/csse4011
 cd ~/csse4011
-# Clone your git repository into the folder:
+# Clone your student git repository into the folder:
 git clone https://sources.eait.uq.edu.au/git/csse4011-sXXXXXXX.git csse4011-sXXXXXXXX
 # Tell West what the main repo is
 west init -l csse4011-sXXXXXXXX
