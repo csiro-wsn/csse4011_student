@@ -26,5 +26,5 @@ https://docs.zephyrproject.org/latest/getting_started/index.html
 ## Build an Application
 
 ```
-west build -b thingy52_nrf52832 csse4010-sXXXXXXX/apps/p1/blinky
+west build -b thingy52_nrf52832 csse4011-sXXXXXXX/apps/p1/blinky
 ```
